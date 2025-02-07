@@ -13,8 +13,6 @@ defmodule CRUD do
 
       @cont Keyword.get(opts, :context)
 
-      @behaviour __MODULE__
-
       @doc """
       Returns the current Repo
       """
